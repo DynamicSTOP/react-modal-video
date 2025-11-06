@@ -326,6 +326,10 @@ ReactDOM.render(<App />, document.getElementById('root'));
 		<td>dismissBtnMessage</td>
 		<td>'Close the modal by clicking here'</td>
 	</tr>
+	<tr>
+		<td colspan="2">referrerPolicy</td>
+		<td>undefined</td>
+	</tr>
 </tbody></table>
 
 ## FAQ
