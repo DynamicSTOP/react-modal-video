@@ -200,6 +200,7 @@ export default class ModalVideo extends React.Component {
                           allowFullScreen={this.props.allowFullScreen}
                           onKeyDown={this.updateFocus}
                           ref={(node) => {this.modaliflame = node; }}
+                          referrerPolicy={this.props.referrerPolicy}
                           tabIndex='-1' />
                     }
                     <button
@@ -281,5 +282,6 @@ ModalVideo.defaultProps = {
   aria: {
     openMessage: 'You just opened the modal video',
     dismissBtnMessage: 'Close the modal by clicking here'
-  }
+  },
+  referrerPolicy: undefined
 };
